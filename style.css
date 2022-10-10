@@ -1,0 +1,27 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(10, 50px);
+    grid-template-rows: repeat(10, 50px);
+    justify-content: center;
+}
+
+.grid-container > div{
+    border: solid 1px;
+    transition: 0.1s;
+}
+
+.rty{
+    background-color: black;
+}
+
+.counter{
+    display: flex;
+    font-size: 2em;
+    justify-content: center;
+    gap: 1em;
+}
+
+.asd{
+    display: flex;
+    flex-wrap: nowrap;
+}
